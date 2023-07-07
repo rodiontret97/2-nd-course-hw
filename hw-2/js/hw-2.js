@@ -4,10 +4,10 @@ let a = alert ('10');
 a = alert ('20');
 
 // задание 2
-let inform = alert ('год выпуска первого iphone 09.01.2007');
+const inform = alert ('год выпуска первого iphone 09.01.2007');
 
 // задание 3
-let js = alert ('Имя создателя js Брендан Эйх')
+const js = alert ('Имя создателя js Брендан Эйх')
 
 // задание 4
 let ten = 10;
