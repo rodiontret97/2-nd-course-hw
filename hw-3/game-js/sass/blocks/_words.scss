@@ -1,0 +1,17 @@
+.year--words {  
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-top: 51px;
+        padding-bottom: 90px;
+    }
+}
+
+.year-content--words {  
+    flex-direction: row-reverse;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        flex-direction: column;
+        padding-top: 51px;
+    }
+}

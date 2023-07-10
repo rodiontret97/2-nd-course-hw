@@ -1,0 +1,49 @@
+.riddles {
+    background-image: url(./../img/riddles/riddles.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 276px;
+    padding-bottom: 288px;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        padding-top: 51px;
+        padding-bottom: 488px;
+    }
+}
+
+.riddles-content {
+    text-align: center;
+}
+
+.riddles-content__title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 32px;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        font-size: 32px;
+    }
+}
+
+.riddles-content__text {
+    margin-bottom: 32px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7;
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+    font-size: 14px;
+    line-height: 1.5;
+    }
+    }
