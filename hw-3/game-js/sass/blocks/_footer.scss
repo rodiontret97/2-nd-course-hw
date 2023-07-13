@@ -1,0 +1,17 @@
+.footer {   
+   border-top: 1px solid rgba(184, 212, 255, 0.20);
+
+   /* Mobile XS */
+   @media (max-width: 599px) {
+    border-top: none;
+   }
+}
+
+.footer-text {  
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
