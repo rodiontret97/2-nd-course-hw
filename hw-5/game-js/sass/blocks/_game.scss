@@ -1,0 +1,46 @@
+.game-row {
+    display: flex;
+    column-gap: 32px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        flex-direction: column;
+        row-gap: 32px;
+    }
+}
+.game-row__card {
+    width: 379px;
+    height: 300px;
+    background-image: url(./../img/card/game-one.png);
+    border-radius: 16px;
+    transition: border 0.2s ease-in;
+
+    &:hover {   
+        border: 3px solid #44D2FF;
+    } 
+
+    /* Mobile XS */
+    @media (max-width: 599px) {
+        width: 343px;
+    }
+}
+
+.game-row__card:nth-child(2) {  
+    background-image: url(./../img/card/game-two.png); 
+}
+
+.game-row__card:nth-child(3) {  
+    background-image: url(./../img/card/game-three.png); 
+}
+
+.game-row__title {
+    color: #FFF;
+    font-size: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-top: 236px;
+    margin-left: 32px;
+}
